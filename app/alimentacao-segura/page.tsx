@@ -79,7 +79,7 @@ export function SafeFood() {
               className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl"
             >
               <Image 
-                src="https://picsum.photos/seed/kitchen-clean/800/800" 
+                src="https://picsum.photos/seed/professional-kitchen-hygiene/800/800" 
                 alt="Cozinha Profissional Limpa" 
                 fill
                 className="object-cover"
