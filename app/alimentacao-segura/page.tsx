@@ -52,10 +52,10 @@ export default function SafeFood() {
       <Navbar />
       <section className="pt-32 pb-20 px-5 bg-white min-h-screen">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+          <div className="max-w-3xl mx-auto text-center mb-20">
             <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
             >
               <span className="inline-block text-xs font-bold tracking-[0.15em] uppercase text-emerald mb-3">
                 Segurança Alimentar
@@ -66,25 +66,12 @@ export default function SafeFood() {
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
                 A segurança alimentar não é apenas uma obrigação legal perante a Anvisa, mas o pilar fundamental de confiança entre seu restaurante e seus clientes.
               </p>
-              <div className="p-6 bg-cream border-l-4 border-gold rounded-r-lg">
-                <p className="text-sm italic text-navy">
+              <div className="p-8 bg-cream border-t-4 border-gold rounded-b-lg shadow-sm">
+                <p className="text-lg italic text-navy leading-relaxed">
                   &quot;As Boas Práticas de Fabricação são procedimentos que devem ser adotados por serviços de alimentação a fim de garantir a qualidade higiênico-sanitária e a conformidade dos alimentos com a legislação sanitária.&quot;
                 </p>
-                <cite className="block mt-4 text-xs font-bold uppercase tracking-widest text-gold">— Guia Anvisa</cite>
+                <cite className="block mt-6 text-xs font-bold uppercase tracking-widest text-gold">— Guia Anvisa</cite>
               </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl"
-            >
-              <Image 
-                src="https://images.unsplash.com/photo-1594498653385-d52725632955?auto=format&fit=crop&w=800&q=80" 
-                alt="Higienização de Alimentos em Cozinha Profissional" 
-                fill
-                className="object-cover"
-                referrerPolicy="no-referrer"
-              />
             </motion.div>
           </div>
 
